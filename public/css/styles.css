@@ -1,0 +1,61 @@
+body {
+    background-color: powderblue;
+    background-image: url(footballBackgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: large;
+  }
+  h1 {
+    color: white;
+    text-shadow: 5px 5px 5px aquamarine;
+    font-size: 50px;
+  }
+  p {
+    color: red;
+  }
+  table, th, td {
+    border: 1px solid aquamarine;
+    
+  }
+  table {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    background-color: transparent;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th {
+    color: aqua;
+    text-shadow: 2px 2px 2px black;
+  }
+  td {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 35px;
+  }
+  td.name {
+    color: white;
+  }
+  td.nationality {
+    color: white;
+  }
+  td.club {
+    color: white;
+  }
+  td.overallRating {
+    color: black;
+  }
+  td.overallRating {
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: yellowgreen;
+  }
